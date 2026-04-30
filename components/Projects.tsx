@@ -12,6 +12,7 @@ import { Reveal } from "@/components/Reveal";
 import { RevealWords } from "@/components/RevealWords";
 import { TiltCard } from "@/components/TiltCard";
 import { projects, type Project } from "@/data/projects";
+import { asset } from "@/lib/asset";
 
 export function Projects() {
   return (
@@ -169,7 +170,7 @@ function ProjectImage({ project }: { project: Project }) {
       {hasImage ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img
-          src={project.image!.src}
+          src={asset(project.image!.src)}
           alt={project.image!.alt}
           loading="lazy"
           decoding="async"
