@@ -2,7 +2,7 @@
 
 Trang Portfolio cá nhân theo phong cách **Minimalist Dark**, one-page scrolling.
 
-Link: https://github.com/LamGenesis/my-portfolio/actions
+Link: https://lamgenesis.github.io/my-portfolio/
 
 ## Tech Stack
 
