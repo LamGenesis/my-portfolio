@@ -62,7 +62,7 @@ export function Hero() {
             style={{ animationDelay: "660ms" }}
           >
             <MagneticLink href="#projects" className="btn-primary">
-              Xem dự án
+              View projects
               <ArrowDown size={16} />
             </MagneticLink>
             <MagneticLink
@@ -80,7 +80,7 @@ export function Hero() {
               aria-label="Send email"
             >
               <Mail size={16} />
-              Liên hệ
+              Contact
             </MagneticLink>
           </div>
         </div>
@@ -89,7 +89,7 @@ export function Hero() {
           href="#about"
           className="absolute bottom-8 left-1/2 hidden -translate-x-1/2 items-center gap-2 text-xs font-medium uppercase tracking-[0.3em] text-slate-500 hover:text-sky-400 sm:inline-flex"
         >
-          Cuộn xuống
+          Scroll down
           <ArrowDown size={14} className="animate-bounce" />
         </a>
       </div>

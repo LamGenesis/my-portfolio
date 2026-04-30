@@ -42,7 +42,7 @@ export function Contact() {
                     className="btn-primary"
                   >
                     <Send size={16} />
-                    Gửi email
+                    Send email
                   </a>
                   <a
                     href={personal.socials.github}

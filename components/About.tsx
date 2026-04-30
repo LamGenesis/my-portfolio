@@ -34,7 +34,7 @@ export function About() {
                   <GraduationCap size={18} />
                 </span>
                 <div>
-                  <p className="text-sm text-slate-400">Học vấn</p>
+                  <p className="text-sm text-slate-400">Education</p>
                   <p className="font-semibold text-white">
                     {personal.education.major}
                   </p>
@@ -56,7 +56,7 @@ export function About() {
                   <Sparkles size={18} />
                 </span>
                 <div>
-                  <p className="text-sm text-slate-400">Đang tập trung</p>
+                  <p className="text-sm text-slate-400">Currently focused</p>
                   <p className="font-semibold text-white">
                     .NET · Microservices · Next.js
                   </p>
@@ -75,7 +75,7 @@ export function About() {
                   <MapPin size={18} />
                 </span>
                 <div>
-                  <p className="text-sm text-slate-400">Vị trí</p>
+                  <p className="text-sm text-slate-400">Location</p>
                   <p className="font-semibold text-white">{personal.location}</p>
                 </div>
               </div>
